@@ -1,0 +1,63 @@
+body
+{
+    background-color: darkgoldenrod;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover
+{
+    background-color: #EEE8AA;
+}
+.active
+{
+    background-color: #000000;
+}
+.container
+{
+    max-width: 1300px;
+    margin: auto;
+    background: #EEE8AA;
+    overflow: auto;
+}
+.gallery
+{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallery img
+{
+    width: 100%;
+    height:auto;
+}
+.desc
+{
+    padding: 15px;
+    text-align: center;
+}
+.table
+{
+    border-color: black;
+    text-align: center;
+}
